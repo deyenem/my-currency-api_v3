@@ -1,0 +1,17 @@
+// File: package.json
+// This file describes your project
+
+{
+  "name": "my-currency-api",
+  "version": "1.0.0",
+  "description": "A simple currency exchange API",
+  "main": "api/exchange.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}

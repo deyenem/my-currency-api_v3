@@ -1,0 +1,13 @@
+// File: vercel.json
+// Configuration for Vercel deployment
+
+{
+  "functions": {
+    "api/exchange.js": {
+      "maxDuration": 10
+    },
+    "api/currencies.js": {
+      "maxDuration": 10
+    }
+  }
+}
